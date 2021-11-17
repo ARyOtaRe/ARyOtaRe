@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto&color=%236F3CB8&center=true&vCenter=true&lines=%E5%A4%A7%E5%AE%B6%E5%A5%BD!+Hello!+Bonjour!+Guten+Tag!)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto&color=%236F3CB8&center=true&vCenter=true&lines=%E5%A4%A7%E5%AE%B6%E5%A5%BD!+Hello!+Guten+Tag!+Bonjour!)](https://git.io/typing-svg) 
 ![Greetings](https://cdn.discordapp.com/emojis/595225951403638784.gif?size=4096)
 
 <br/>
