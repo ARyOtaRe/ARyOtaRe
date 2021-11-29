@@ -1,7 +1,7 @@
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
-"""
+
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 parameters = {
   'start':'1',
@@ -27,12 +27,12 @@ try:
     print(oeuf["data"][2]["id"])
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
-"""
 
-with open('test.json', 'r') as file:
+
+with open('nul.json', 'r') as file:
     #caca=json.dumps(data, indent=2)
     #file.write(caca)
     #print(data)
     oeuf = json.loads(file.read())
     
-    print(oeuf["data"][22])
+    print(oeuf["data"][22]["quote"]["USD"]["price"])
