@@ -1,0 +1,52 @@
+{
+  "status": {
+    "timestamp": "2021-12-01T22:36:16.453Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 9,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": {
+    "6892": {
+      "id": 6892,
+      "name": "Elrond",
+      "symbol": "EGLD",
+      "slug": "elrond-egld",
+      "num_market_pairs": 61,
+      "date_added": "2020-09-04T00:00:00.000Z",
+      "tags": [
+        "binance-smart-chain",
+        "binance-launchpad",
+        "binance-labs-portfolio",
+        "electric-capital-portfolio",
+        "exnetwork-capital-portfolio"
+      ],
+      "max_supply": 31415926,
+      "circulating_supply": 19813813.76541377,
+      "total_supply": 22814513,
+      "is_active": 1,
+      "platform": null,
+      "cmc_rank": 23,
+      "is_fiat": 0,
+      "last_updated": "2021-12-01T22:34:32.000Z",
+      "quote": {
+        "USD": {
+          "price": 416.22632848662005,
+          "volume_24h": 421582779.3359107,
+          "volume_change_24h": 71.6792,
+          "percent_change_1h": 1.97803218,
+          "percent_change_24h": 9.03972616,
+          "percent_change_7d": -8.73973369,
+          "percent_change_30d": 53.56057468,
+          "percent_change_60d": 64.02174605,
+          "percent_change_90d": 139.46102023,
+          "market_cap": 8247030956.895825,
+          "market_cap_dominance": 0.3163,
+          "fully_diluted_market_cap": 13076135534.99,
+          "last_updated": "2021-12-01T22:34:32.000Z"
+        }
+      }
+    }
+  }
+}
