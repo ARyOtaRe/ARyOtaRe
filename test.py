@@ -2,11 +2,9 @@ from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 
-url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
-url2='https://pro-api.coinmarketcap.com/v1/cryptocurrency/map&id=6892'
+url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 parameters = {
-  'start':'1',
-  'limit':'5000',
+  'id':'6892',
   'convert':'USD'
 }
 headers = {
@@ -24,16 +22,8 @@ try:
     #    caca=json.dumps(data, indent=2)
     #    file.write(caca)
     #print(data)
-    
-    print(oeuf["data"][2]["id"])
+    print(oeuf["data"]["6892"]["name"])
+
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
 
-
-with open('nul.json', 'r') as file:
-    #caca=json.dumps(data, indent=2)
-    #file.write(caca)
-    #print(data)
-    oeuf = json.loads(file.read())
-    
-    print(oeuf["data"][22]["quote"]["USD"]["price"])
