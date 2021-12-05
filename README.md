@@ -34,7 +34,7 @@ class  ARyOtaRe:
 ![](https://img.shields.io/badge/Tools-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=6aa6f8)
 
-![Greetings](https://cdn.discordapp.com/emojis/624632714766581762.gif?size=4096)
+![Greetings](https://cdn.discordapp.com/emojis/624632714766581762.gif?size=64)
 
 ![ARyOtaRe's github stats](https://github-readme-stats.vercel.app/api?username=ARyOtaRe&hide=prs&count_private=true&theme=synthwave)
 <br/> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ARyOtaRe) 
