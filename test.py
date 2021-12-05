@@ -1,3 +1,4 @@
+import requests
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
@@ -27,3 +28,27 @@ try:
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
 
+
+
+def current(args=str):
+  """Shows the weather information of the city of your choice!"""
+  print("it's a me!")
+  try:
+    cmoplete_api_link="https://api.openweathermap.org/data/2.5/weather?q="+f"{args}"+"&appid=6e2d2db27e5a42fa384a698d859fc686"
+    api_link=requests.get(cmoplete_api_link)
+    api_data=api_link.json()
+    print(cmoplete_api_link)
+  except requests.exceptions.RequestException as e:
+    print(e)
+  if api_data['cod']=='404':
+    print("hey fuck off that's not the right city")
+  else:
+    temperature=((api_data['main']['temp'])-273.15)
+    windspeed=((api_data['wind']['speed'])*3.6)
+    city = f'{args}\'' if args[-1]=='s' else f'{args}\'s'
+    fahr=9.0/5.0 * temperature + 32
+    print(f"{temperature}°C and {fahr}F")
+  print(city)
+
+
+current("Guérande")
