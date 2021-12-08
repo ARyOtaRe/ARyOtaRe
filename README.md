@@ -34,7 +34,8 @@ class  ARyOtaRe:
 ![](https://img.shields.io/badge/Tools-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Tools-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=6aa6f8)
 
-![Greetings](https://cdn.discordapp.com/emojis/624632714766581762.gif?size=64)
+![H4X0R](https://cdn.discordapp.com/emojis/624632714766581762.gif?size=64)
+![Profile Views](https://komarev.com/ghpvc/?username=ARyOtaRe)
 
 ![ARyOtaRe's github stats](https://github-readme-stats.vercel.app/api?username=ARyOtaRe&hide=prs&count_private=true&theme=synthwave)
 <br/> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ARyOtaRe) 
@@ -53,3 +54,5 @@ class  ARyOtaRe:
 <a href="https://github.com/ARyOtaRe/Coupe-de-France-de-robotique">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=Coupe-de-France-de-robotique&show_icons=true&line_height=27&title_color=1DE9B6&text_color=8a919a&icon_color=1DE9B6&bg_color=0d1117" alt="Coupe-de-France-de-robotique" />
 </a>
+
+
