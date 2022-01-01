@@ -51,8 +51,8 @@ class  ARyOtaRe:
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=WeatherBot&show_icons=true&line_height=27&title_color=8D33FF&text_color=8a919a&icon_color=8D33FF&bg_color=0d1117" alt="WeatherBot" />
 </a>
 
-<a href="https://github.com/ARyOtaRe/Coupe-de-France-de-robotique">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=Coupe-de-France-de-robotique&show_icons=true&line_height=27&title_color=1DE9B6&text_color=8a919a&icon_color=1DE9B6&bg_color=0d1117" alt="Coupe-de-France-de-robotique" />
+<a href="https://github.com/ARyOtaRe/Robotium">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=Robotium&show_icons=true&line_height=27&title_color=1DE9B6&text_color=8a919a&icon_color=1DE9B6&bg_color=0d1117" alt="Robotium" />
 </a>
 
 
