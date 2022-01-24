@@ -69,7 +69,7 @@ for key, value in template_data.items():
     print(f'"{key}": "{value}",')
 """
 
-from cv2 import cv2
+from cv2 import cv2 
 import numpy as np
 
 def main():
