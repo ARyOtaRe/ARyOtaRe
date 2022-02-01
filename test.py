@@ -4,6 +4,8 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 import tkinter as tk
 import tkinter.font as font
+from cv2 import cv2 
+import numpy as np
 """
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 parameters = {
@@ -54,23 +56,52 @@ def current(args=str):
 
 
 current("Guérande")
-
+"""
 
 with open("C:\\Users\\ARyOtaRe\\Documents\\SlashBot\\en.json", encoding="utf8") as en_json:
   en_data=json.loads(en_json.read())
 
+with open("C:\\Users\\ARyOtaRe\\Documents\\SlashBot\\fr.json", encoding="utf8") as fr_json:
+  fr_data=json.loads(fr_json.read())
 template_data={}
-for key in template_data:
-  if key not in en_data:
+
+for key in en_data:
+  if key not in fr_data:
     print(f"\"{key}\": \"\",")
-data={}
-for key, value in template_data.items():
+
+
+data = {"PLACEHOLDER_SETUP": "",
+"DESCRIPTION": "",
+"EMOJI": "",
+"REQUIRED_ROLES": "",
+"ERROR_UNABLE_TO_FIND_ROLE": "",
+"ERROR_INVALID_EMOJI": "",
+"ERROR_EMBED_MORE_THAN_ONE": "",
+"ERROR_EPHEMERAL_AND_CHANNEL": "",        
+"DROPDOWNROLES_DESCRIPTION": "",
+"DROPDOWNROLES_ADVANCED_OPTION_ADDED": "",
+"DROPDOWNROLES_ADVANCED_SELECT_TO_REMOVE": "",
+"DROPDOWNROLES_ADVANCED_MODAL_TITLE": "",
+"DROPDOWNROLES_ADVANCED_MODAL_ROLE_PLACEHOLDER": "",
+"DROPDOWNROLES_ADVANCED_MODAL_ROLE_LABEL": "",
+"DROPDOWNROLES_ADVANCED_MODAL_EMOJI_PLACEHOLDER": "",
+"DROPDOWNROLES_ADVANCED_MODAL_EMOJI_LABEL": "",
+"DROPDOWNROLES_ADVANCED_MODAL_LABEL_PLACEHOLDER": "",
+"DROPDOWNROLES_ADVANCED_MODAL_LABEL_LABEL": "",
+"DROPDOWNROLES_ADVANCED_MODAL_DESCRIPTION_PLACEHOLDER": "",
+"DROPDOWNROLES_ADVANCED_MODAL_DESCRIPTION_LABEL": "",
+"DROPDOWNROLES_ADVANCED_MODAL_RESTRICTION_PLACEHOLDER": "",
+"DROPDOWNROLES_ADVANCED_MODAL_RESTRICTION_LABEL": "",
+"DROPDOWNROLES_ADVANCED_BUTTONS_1": "",
+"DROPDOWNROLES_ADVANCED_BUTTONS_2": "",
+"DROPDOWNROLES_ADVANCED_BUTTONS_3": "",
+"DROPDOWNROLES_ADVANCED_BUTTONS_4": "",}
+for key, value in en_data.items():
   if key in data:
     print(f'"{key}": "{value}",')
+
 """
 
-from cv2 import cv2 
-import numpy as np
 
 def main():
   vc = cv2.VideoCapture(0,cv2.CAP_DSHOW)
@@ -120,3 +151,4 @@ def grayToChar(gray):
 if __name__ == '__main__':
     main()
 
+"""
