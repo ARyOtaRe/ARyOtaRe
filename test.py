@@ -2,9 +2,12 @@ import requests
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
+import random
+import time
+import urllib3
 import tkinter as tk
-import tkinter.font as font
-from cv2 import cv2 
+import tkinter.font as font 
+from cv2 import cv2
 import numpy as np
 """
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
@@ -69,33 +72,9 @@ for key in en_data:
   if key not in fr_data:
     print(f"\"{key}\": \"\",")
 
+print("\n\n")
 
-data = {"PLACEHOLDER_SETUP": "",
-"DESCRIPTION": "",
-"EMOJI": "",
-"REQUIRED_ROLES": "",
-"ERROR_UNABLE_TO_FIND_ROLE": "",
-"ERROR_INVALID_EMOJI": "",
-"ERROR_EMBED_MORE_THAN_ONE": "",
-"ERROR_EPHEMERAL_AND_CHANNEL": "",        
-"DROPDOWNROLES_DESCRIPTION": "",
-"DROPDOWNROLES_ADVANCED_OPTION_ADDED": "",
-"DROPDOWNROLES_ADVANCED_SELECT_TO_REMOVE": "",
-"DROPDOWNROLES_ADVANCED_MODAL_TITLE": "",
-"DROPDOWNROLES_ADVANCED_MODAL_ROLE_PLACEHOLDER": "",
-"DROPDOWNROLES_ADVANCED_MODAL_ROLE_LABEL": "",
-"DROPDOWNROLES_ADVANCED_MODAL_EMOJI_PLACEHOLDER": "",
-"DROPDOWNROLES_ADVANCED_MODAL_EMOJI_LABEL": "",
-"DROPDOWNROLES_ADVANCED_MODAL_LABEL_PLACEHOLDER": "",
-"DROPDOWNROLES_ADVANCED_MODAL_LABEL_LABEL": "",
-"DROPDOWNROLES_ADVANCED_MODAL_DESCRIPTION_PLACEHOLDER": "",
-"DROPDOWNROLES_ADVANCED_MODAL_DESCRIPTION_LABEL": "",
-"DROPDOWNROLES_ADVANCED_MODAL_RESTRICTION_PLACEHOLDER": "",
-"DROPDOWNROLES_ADVANCED_MODAL_RESTRICTION_LABEL": "",
-"DROPDOWNROLES_ADVANCED_BUTTONS_1": "",
-"DROPDOWNROLES_ADVANCED_BUTTONS_2": "",
-"DROPDOWNROLES_ADVANCED_BUTTONS_3": "",
-"DROPDOWNROLES_ADVANCED_BUTTONS_4": "",}
+data={}
 for key, value in en_data.items():
   if key in data:
     print(f'"{key}": "{value}",')
@@ -152,3 +131,24 @@ if __name__ == '__main__':
     main()
 
 """
+
+"""
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+with open("C:\\Users\\ARyOtaRe\\Documents\\GitHub\\username_text_file.txt", "r") as f: #create a text file with the usernames you want to check
+  data = f.readlines()
+
+for un in data:
+    time.sleep(1 * random.random())
+    url = "https://www.instagram.com/"+str(un[:4])
+    x = requests.get(url, verify = False)
+    if x.status_code == 200:
+        print("skip - " + un[:4]+ " - "+ str(data.index(un)))
+    else:
+        print("available - " + un[:4] + " - "+ str(data.index(un)))
+        with open("available_usernames.txt", "a") as f2: # create a blank text file and it'll insert all the available usernames in there so you can check later
+          f2.write(un)
+    if int(data.index(un))%20 == 0:
+        time.sleep(5)
+"""
+
