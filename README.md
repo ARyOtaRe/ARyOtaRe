@@ -14,7 +14,7 @@ class  ARyOtaRe:
 		
 	def programming_languages(self):
 		global backend={ "Python":"Raspberry Pi manager", "C++":"Solarius"}
-		global frontend=[{"Python": "Europe Discord bot"},  {"Python": "Star Wars Archives Discord bot"},{"HTML": "Website"}]
+		global frontend=[{"Python": "Europe Discord bot"},  {"Python": "Star Wars Archives Discord bot"},{"HTML": "Website"},{"Javascript":"website"}]
 		print("Backend:\n"+json.dumps(backend)+"\nFrontend:\n"+json.dumps(frontend))
 		
 ```
