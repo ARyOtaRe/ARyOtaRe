@@ -9,7 +9,7 @@ import tkinter as tk
 import tkinter.font as font 
 from cv2 import cv2
 import numpy as np
-"""
+
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 parameters = {
   'id':'6892',
@@ -35,7 +35,10 @@ try:
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
 
+with open("tests.json", "w") as f:
+  f.write(json.dumps(oeuf, indent=2))
 
+"""
 
 def current(args=str):
   
