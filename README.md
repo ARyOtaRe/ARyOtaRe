@@ -58,6 +58,8 @@ I use these tools:
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=2163besfw2opoiwjryvzw5pya&cover_image=true&theme=natemoo-re&bar_color=974eb1)](https://spotify-github-profile.vercel.app/api/view?uid=2163besfw2opoiwjryvzw5pya&redirect=true)
 
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://supportukrainenow.org/)
+
 ## My Projects
 
 
@@ -70,8 +72,8 @@ I use these tools:
 </a>
 </br>
 </br>
-## 
+
  
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://supportukrainenow.org/)
+
 
 
