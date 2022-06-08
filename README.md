@@ -64,8 +64,8 @@ I listen to:
 ## My Projects
 
 
-<a href="https://github.com/ARyOtaRe/WeatherBot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=WeatherBot&show_icons=true&line_height=27&title_color=8D33FF&text_color=8a919a&icon_color=8D33FF&bg_color=0d1117" alt="WeatherBot" />
+<a href="https://github.com/ARyOtaRe/Star-Wars-Archives">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryotare&repo=Star-Wars-Archives&show_icons=true&line_height=27&title_color=8D33FF&text_color=8a919a&icon_color=8D33FF&bg_color=0d1117" alt="Star-Wars-Archives" />
 </a>
 
 <a href="https://github.com/ARyOtaRe/Robotium">
