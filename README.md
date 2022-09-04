@@ -10,7 +10,9 @@
 class  ARyOtaRe:
 	def __init__(self, name, age): 
 		self.name = "Raf"
-		self.age = 20
+		self.age = 21
+		self.gender = "non-binary"
+		self.pronouns = "They/She/Them/Her"
 		
 	def programming_languages(self):
 		global backend={ "Python":"Raspberry Pi manager", "C++":"Solarius"}
