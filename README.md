@@ -11,7 +11,7 @@ class  ARyOtaRe:
 	def __init__(self, name, age): 
 		self.name = "Raf"
 		self.age = 21
-		self.gender = "non-binary"
+		self.gender = "Non-binary"
 		self.pronouns = ["They/Them","She/Her"]
 		
 	def programming_languages(self):
