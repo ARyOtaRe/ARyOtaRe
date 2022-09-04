@@ -12,7 +12,7 @@ class  ARyOtaRe:
 		self.name = "Raf"
 		self.age = 21
 		self.gender = "non-binary"
-		self.pronouns = "They/She/Them/Her"
+		self.pronouns = ["They/Them","She/Her"]
 		
 	def programming_languages(self):
 		global backend={ "Python":"Raspberry Pi manager", "C++":"Solarius"}
