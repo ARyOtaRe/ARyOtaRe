@@ -9,8 +9,8 @@
 ```py
 class  ARyOtaRe:
 	def __init__(self, name, age): 
-		self.name = "Ica3"
-		self.age = 21
+		self.name = "Icaä"
+		self.age = 23
 		self.pronouns = ["She/Her","They/Them"]
 		
 	def programming_languages(self):
