@@ -58,12 +58,12 @@ I use these tools:
 <br/>
 I listen to:
 <br/>
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=2163besfw2opoiwjryvzw5pya&cover_image=true&theme=novatorem&show_offline=false&background_color=bdfff2&interchange=false&bar_color=ae52ff&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=2163besfw2opoiwjryvzw5pya&redirect=true)
-
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=2163besfw2opoiwjryvzw5pya&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=be29ec&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
 
 <br/>
+<br/>
 
-[SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)
+![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)
 
 ## My Projects
 
