@@ -54,13 +54,13 @@ I use these tools:
 ![Profile Views](https://komarev.com/ghpvc/?username=ARyOtaRe)
 
 ![ARyOtaRe's github stats](https://github-readme-stats.vercel.app/api?username=ARyOtaRe&count_private=true&theme=synthwave)
-<br/> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ARyOtaRe&layout=compact) 
+<br/>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ARyOtaRe&layout=compact) 
 
 <br/>
 I listen to:
 <br/>
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=2163besfw2opoiwjryvzw5pya&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=be29ec&bar_color_cover=false )](https://github.com/kittinan/spotify-github-profile)
-
+<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=2163besfw2opoiwjryvzw5pya&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=be29ec&bar_color_cover=false" alt="https://github.com/kittinan/spotify-github-profile">
 <br/>
 <br/>
 
