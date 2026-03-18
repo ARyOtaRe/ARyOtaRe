@@ -10,7 +10,7 @@
 class  ARyOtaRe:
 	def __init__(self, name, age): 
 		self.name = "Icaä"
-		self.age = 23
+		self.age = 24
 		self.pronouns = ["She","Her"]
 		
 	def programming_languages(self):
